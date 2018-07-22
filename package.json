@@ -1,0 +1,28 @@
+{
+    "name": "vsllite",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Volt Developers",
+    "contributes": {
+        "languages": [
+            {
+                "id": "volt",
+                "aliases": [
+                    "Volt", "volt"
+                ],
+                "extensions": [
+                    ".volt"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "volt",
+                "scopeName": "text.volt",
+                "path": "./volt.tmLanguage"
+            }
+        ]
+    }
+}
